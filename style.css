@@ -46,4 +46,22 @@ body {
     list-style: heart;
     font-size: 1.1rem;
   }
+
+.chat-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ff6b81;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.chat-btn:hover {
+  background-color: #ff4757;
+  transform: scale(1.05);
+}
+
   
